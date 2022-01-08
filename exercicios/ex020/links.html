@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+
+        }
+        a:visited {
+            color: darkred;
+            
+        }
+        a:hover {
+            text-decoration: underline;
+            color:orangered ;
+
+        }
+        a:active {
+            color: green;
+        }
+        a::before {
+            content:'☛'	; 
+            color: blue;
+        }
+        a::after {
+            content:'☚	' ;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/alimento_vegan/" target="_blank">link para meu instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UCnRLPJUicFTKJUYN00awgLA">link para meu canal no youtube</a></li>
+        <li><a href="https://www.iana.org/assignments/media-types/media-types.xhtml">link para qualquer pagina</a></li>
+    </ul>
+    
+</body>
+</html>
