@@ -52,6 +52,7 @@ a:hover {
      padding-left: 30px;
      font-family: var(--fonte3);
      font-size: 3vw;
+     
  }
 
 section.normal {
@@ -99,4 +100,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+   
 }
